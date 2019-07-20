@@ -1,0 +1,23 @@
+---
+title: "Information Entropy Notes"
+author: "Andira Putri"
+output: pdf_document
+---
+
+The old pre-med, chemistry major in me thought that **entropy** was a term only used in the physical sciences as a measure of disorder. However, one of my colleagues brought entropy up as a way of finding the most interesting features in a very high-dimensional data set...so I knew I had to study this further in the context of data science :)
+
+## What is Information Theory?
+
+In the past, scientists needed a way to quantify information. For example:
+
+* Naman likes superhero movies.
+
+* Naman likes Marvel superhero movies, especially with Iron Man.
+
+Clearly, the second statement contains more information than the very general first statement. Scientists wondered how the differences in the statements could be quantified, and they questioned how to represent the distinctions in a mathematical expression. Claude Shannon came up with the notion of entropy, which marked the beginning of the Digital Information Age. Shannon believed the “semantic aspects of data are irrelevant.” In other words, the nature and meaning of the data don't really matter compared to the information content. This gave rise to Information Theory, which paved paths for analytics and artificial intelligence.
+
+Now, think about a scenario where you are trying to guess the author of a book given the text. Words like "it" or "the" would not be very helpful since they are commonly used. Pronouns like "it" or "the" contain less information about the author than rare words, like "infinities" or "fathom". Claude Shannon quantified information in terms of probability distributions and uncertainty, so let's take that approach. With that being said, we now express our scenario mathematically.
+
+Let $x$ be a random variable for all possible words. $p(x)$ is the probability of seeing word $x$. Finally, $h(x)$ is the information gained from seeing word $x$. If we had another word $y$, we could also find the information gained from seeing $x$ and $y$ together, i.e. $h(x,y)$. Our goal is to 
+
+## What is Entropy?
