@@ -1,6 +1,26 @@
 import math
+import pandas as pd
 
-# read The Fault in Our Stars excerpt
+def word_count(txtfile):
+    # open book
+    # build list of words
+    unique_words = []
+    with open(txtfile, 'r') as f:
+        for line in f:
+            for word in line.split():
+                unique_words.append(word)
+    unique_words = list(unique_words)
+    print(unique_words)
 
-with open("tfios.txt") as file:
-    text = file.read()
+    # build dictionary
+    dictionary = {}
+    for i in unique_words:
+        if i in dictionary:
+            dictionary[i] += 1
+        else:
+            dictionary[i] = 1
+    # frequency of words
+    summation = sum(dictionary.values())
+    return dictionary,summation
+
+

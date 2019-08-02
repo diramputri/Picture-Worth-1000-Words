@@ -52,6 +52,6 @@ This is the cross entropy of a model $q$ with respect to $p$, the true distribut
 
 ## Project
 
-We compare the entropies of a book excerpt and image. The book I chose is "The Fault in Our Stars" by John Green. The image is a still from "All of the Stars" by Ed Sheeran, which is the main song of the book's movie adaptation.
+We compare the entropies of a book summary and image. The book I chose is "The Fault in Our Stars" by John Green. The image is a still from "All of the Stars" by Ed Sheeran, which is the main song of the book's movie adaptation.
 
 ![Still from "All of the Stars" by Ed Sheeran](allofthestars.png)
